@@ -13,7 +13,9 @@ create an .env file with the following variables
 TOKEN_CONTRACT_ADDRESS=   
 PAYMENT_CHANNEL_ADDRESS=   
 SENDER_PRIVATE_KEY=  
-CHANNEL_RECIPIENT_ADDRESS=  
+CHANNEL_RECIPIENT_ADDRESS=
+BROKER_URL=mqtt://localhost:1883
+MQT_TOPIC=payment-channel
 
 To open the channel, run the following command: 
 `node open-channel.js`
