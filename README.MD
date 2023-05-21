@@ -50,11 +50,11 @@ To start the publisher, run the following command:
 
 ```node publisher.js```
 
-Update the close channel 
+Update and close the channel 
 
-** nonce
-** amount
-** signature
+* nonce  
+* amount   
+* signature  
 
 Close the channel
 
